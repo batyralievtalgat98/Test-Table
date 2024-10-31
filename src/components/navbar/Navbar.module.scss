@@ -1,0 +1,29 @@
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+  
+  .linkContainer {
+    display: flex;
+    gap:10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .link:hover {
+    background-color: rgba(189, 183, 183, 0.297);
+  }
+  
+  .link.active {
+    background-color: rgb(189, 183, 183);
+  }
+
+}
